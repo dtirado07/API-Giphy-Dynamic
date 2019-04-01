@@ -25,7 +25,6 @@ window.onload = function () {
     renderButtons();
 
     function getGiphy() {
-        console.log("tarado");
         $(".emotion").on("click", function () {
             var still = true;
             //$("#display-emotion").empty();
